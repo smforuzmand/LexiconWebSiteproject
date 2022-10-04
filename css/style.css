@@ -24,7 +24,42 @@ h3 {
 }
 
 p {
-    margin: 10px 1;
+    margin: 10px 0;
+}
+
+
+/* Utility calsses blongs to whole space */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 19px;
+    color: aliceblue;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background: #f7c08a;
+    color: #333;
 }
 
 /* Navbar */
@@ -62,9 +97,34 @@ p {
     text-align: center;
 }
 
-#navbar ul li a:hover, #navbar ul li a.current {
+#navbar ul li a:hover,
+#navbar ul li a.current {
     background: #444;
     color: #f7c08f;
 
 
+}
+
+#showcase {
+    background: url('../IMG/download.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 170px;
+
+
+
+}
+
+#showcase.showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase.showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
 }
