@@ -77,9 +77,19 @@ p {
     color: #333;
 }
 
-.clr{
+.clr {
     clear: both;
 }
+
+/* Padding */
+.py-1 {padding: 10 px 0;}
+.py-2 {padding: 20 px 0;}
+.py-3 {padding: 30 px 0;}
+
+
+    
+
+
 
 /* Navbar */
 
@@ -184,12 +194,35 @@ p {
 
 }
 
-.box i{
-margin-bottom: 10px;
-
+.box i {
+    margin-bottom: 10px;
 }
+
+
+/* For Info page */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%
+}
+
+#about-info .info-right img {
+
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
 /* footer */
-#main-footer{
+#main-footer {
     text-align: center;
     background: #444;
     color: #f4f4f4;
