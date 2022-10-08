@@ -60,17 +60,22 @@ p {
     color: #333;
 }
 
-.bg-dark {
-    background: #333;
-    color: #fff;
-}
-
 .btn-light {
     background: #c90808;
     color: #333;
 }
 
 
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+
+}
 
 .bg-primary {
     background: #f7c08a;
@@ -81,18 +86,26 @@ p {
     clear: both;
 }
 
+.l-heading {
+    font-size: 40px;
+}
+
+
 /* Padding */
-.py-1 {padding: 10 px 0;}
-.py-2 {padding: 20 px 0;}
-.py-3 {padding: 30 px 0;}
+.py-1 {
+    padding: 10 px 0;
+}
 
+.py-2 {
+    padding: 20 px 0;
+}
 
-    
-
+.py-3 {
+    padding: 30 px 0;
+}
 
 
 /* Navbar */
-
 #navbar {
     background: rgb(202, 55, 55);
     color: whitesmoke;
@@ -134,6 +147,9 @@ p {
 
 }
 
+
+/* showcase */
+
 #showcase {
     background: url('../IMG/Lexicon\ classes.jpg') no-repeat center center/cover;
     height: 600px;
@@ -166,8 +182,8 @@ p {
     width: 50%;
     background: url('../IMG/1.png') no-repeat;
     min-height: 100%;
-
 }
+
 
 #home-info .info-content {
     float: right;
@@ -179,17 +195,15 @@ p {
 
 }
 
-#home-info .info- p {
-
+#home-info .info-content p {
     padding-bottom: 30px;
-
 }
 
 /* features */
 .box {
     float: left;
     width: 33.3%;
-    padding: 15px;
+    padding: 50px;
     text-align: center;
 
 }
@@ -212,6 +226,7 @@ p {
     margin: auto;
     width: 70%;
     border-radius: 50%;
+
 }
 
 
@@ -219,6 +234,63 @@ p {
     float: left;
     width: 50%;
     min-height: 100%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    height: 600px;
+    background: url('../IMG/1.png') no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
 }
 
 /* footer */
